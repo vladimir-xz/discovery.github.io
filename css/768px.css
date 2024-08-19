@@ -1,0 +1,80 @@
+.container {
+    max-width: 100%;
+    padding: 0;
+}
+
+
+.header__layout {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header__menu {
+    display: none;
+}
+
+.content {
+    padding-bottom: 0;
+}
+
+.content__main__title {
+    font-size: 3vw;
+
+}
+
+.content__box {
+    margin-bottom: 0;
+}
+
+.footer__right__gallery__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 16px;
+    margin-right: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}

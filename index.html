@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/768px.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1024px)" href="./css/1024px.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Armata&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+
+    <title>Discovery</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__layout">
+                <div class="header__left">
+                    <div class="header__logo">
+                        <a href="index.html" class="header__logo__link">
+                            <img 
+                                alt="logo" 
+                                class="header__logo__img"
+                                src="./images/logo_img.png" 
+                            >
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <div class="header__right">
+                    <nav class="header__menu">
+                        <ul class="header__menu__list">
+                            <li class="header__menu__item">
+                                <a href="#" class="header__menu__link">Home</a>
+                            </li>
+                            <li class="header__menu__item">
+                                <a href="#" class="header__menu__link">About Us</a>
+                            </li>
+                            <li class="header__menu__item">
+                                <a href="#" class="header__menu__link">Dropdown</a>
+                            </li>
+                            <li class="header__menu__item">
+                                <a href="#" class="header__menu__link">Blog</a>
+                            </li>
+                            <li class="header__menu__item">
+                                <a href="#" class="header__menu__link">Contact</a>
+                            </li>
+                            <li class="header__menu__item">
+                                <a href="#" class="header__menu__link">Log in</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Menu</button>
+                        <nav id="myDropdown" class="dropdown-content">
+                            <a href="#" class="header__menu__link">Home</a>
+                            <a href="#" class="header__menu__link">About Us</a>
+                            <a href="#" class="header__menu__link">Dropdown</a>
+                            <a href="#" class="header__menu__link">Blog</a>
+                            <a href="#" class="header__menu__link">Contact</a>
+                            <a href="#" class="header__menu__link">Log in</a>
+                        </nav>
+                      </div>
+                    <div class="header__search">
+                        <button class="header__search__button"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="content">
+        <div class="container">
+            <section class="content__main">
+                <h2 class="content__main__title">something you want to tell to visiters
+                </h2>
+                <img 
+                    alt="img" 
+                    class="content__main__img" 
+                    src="./images/main-picture_img.png"
+                >
+            </section>
+
+            <section class="content__columns">
+                    <article class="content__box">
+                        <img 
+                            alt="img" 
+                            class="content__box__img"
+                            src="./images/column-left_img.png" 
+                        >
+                        <h4 class="content__box__title"> 
+                            <a href="index.html" 
+                            class="content__box__link">
+                            Standards Video Format</a>
+                        </h4>
+
+
+                        <div class="content__box__text"><p>hendrerit urna eget lorem venenatis porta.
+                            Pellentesque tempor placerat nisi quis accumsan. 
+                            Vivamus a erat eros.</p> 
+                        </div>
+
+                        <ul class="content__box__footer">
+                            <li class="content__box__footer__item">View:
+                                <span class="content__column__footer__item__value">888</span></li>
+                            <li class="content__box__footer__item">Add:
+                                <span class="content__column__footer__item__value">Dikaya</span></li>
+                            <li class="content__box__footer__item">Date:
+                                <span class="content__column__footer__item__value">2013-06-12</span></li>
+                        </ul>
+                    </article>
+
+                    <article class="content__box">
+                        <h4 class="content__box__title"> 
+                            <a href="index.html" 
+                            class="content__box__link">
+                            Standards Post Without Image</a>
+                        </h4>
+
+
+                        <div class="content__box__text"><p>Morbi hendrerit urna eget lorem 
+                            venenatis porta. Pellentesque tempor placerat nisi quis accumsan. 
+                            Vivamus a erat eros. Pellentesque habitant morbi tristique senectus
+                            et netus et malesuada fames ac turpis egestas. Ut tellus velit,
+                            posuere ut luctus ac, imperdiet eget lorem. Etiam scelerisque 
+                            leo ac leo ultricies at tincidunt neque porta. Vivamus a erat 
+                            eros. Pellentesque habitant morbi tristique senectus et netus 
+                            et malesuada fames ac turpis egestas</p> 
+                        </div>
+
+                        <ul class="content__box__footer">
+                            <li class="content__box__footer__item">View:
+                                <span class="content__column__footer__item__value">888</span></li>
+                            <li class="content__box__footer__item">Add:
+                                <span class="content__column__footer__item__value">Dikaya</span></li>
+                            <li class="content__box__footer__item">Date:
+                                <span class="content__column__footer__item__value">2013-06-12</span></li>
+                        </ul>
+                    </article>
+
+                    <article class="content__box">
+                        <img 
+                            alt="img" 
+                            class="content__box__img"
+                            src="./images/content-center_img.png" 
+                        >
+
+                        <h4 class="content__box__title">
+                            <a 
+                            href="index.html" 
+                            class="content__box__link">
+                            Standards Post With Image</a></h4>
+
+                        <div class="content__box__text">
+                            <p>Morbi hendrerit urna eget lorem venenatis porta.
+                            Pellentesque tempor placerat nisi quis accumsan. 
+                            Vivamus a erat eros.Morbi hendrerit urna eget 
+                            lorem venenatis porta.
+                            Pellentesque tempor placerat nisi quis accumsan. 
+                            Vivamus a erat eros.
+                            </p>
+                        </div>
+
+                        <ul class="content__box__footer">
+                            <li class="content__box__footer__item">View:
+                                <span class="content__column__footer__item__value">888</span></li>
+                            <li class="content__box__footer__item">Add:
+                                <span class="content__column__footer__item__value">Dikaya</span></li>
+                            <li class="content__box__footer__item">Date:
+                                <span class="content__column__footer__item__value">2013-06-12</span></li>
+                        </ul>
+                    </article>
+
+                    <article class="content__box media">
+                        <h4 class="content__box__title"> 
+                            <a href="index.html" 
+                            class="content__box__link">
+                            I love the world</a></h4>
+
+                        <ul class="content__box__footer">
+                            <li class="content__box__footer__item">View:
+                                <span class="content__column__footer__item__value">888</span></li>
+                            <li class="content__box__footer__item">Add:
+                                <span class="content__column__footer__item__value">Dikaya</span></li>
+                            <li class="content__box__footer__item">Date:
+                                <span class="content__column__footer__item__value">2013-06-12</span></li>
+                        </ul>
+                    </article>
+
+                    <article class=" content__box content__box__registration">
+                        <h4 class="content__box__registration__title">
+                        Standart LogIn Form</h4>
+
+                        <button class="content__box__registration__button">
+                            Log in via uID
+                        </button>
+                    </article>
+
+                    <article class="content__box">
+                        <img 
+                        alt="img" 
+                        class="content__box__img"
+                        src="./images/Gallery1_img.png" 
+                        >
+                        <h4 class="content__box__title">
+                            <a href="index.html" class="content__box__link"> 
+                            Standards Post With Image
+                            </a>
+                        </h4>
+                    </article>
+
+                    <article class="content__box">
+                        <h4 class="content__box__title">
+                            <a href="index.html" class="content__box__link">
+                            Standard Link Post Format</a>
+                        </h4>
+
+                        <div class="content__box__text">
+                            <p>http://www.ucoz.com/</p>
+                        </div>
+
+                        <ul class="content__box__footer">
+                            <li class="content__box__footer__item">View:
+                                <span class="content__column__footer__item__value">888</span></li>
+                            <li class="content__box__footer__item">Add:
+                                <span class="content__column__footer__item__value">Dikaya</span></li>
+                            <li class="content__box__footer__item">Date:
+                                <span class="content__column__footer__item__value">2013-06-12</span></li>
+                        </ul>
+                    </article>
+
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__up">
+            <div class="container">
+                <div class="footer__layout">
+                    <div class="footer__left">
+                        <div class="footer__title">
+                            <p>Text Widget</p>
+                        </div>
+
+                        <div class="footer__text"><p>Morbi hendrerit urna eget lorem
+                            venenatis porta. Pellentesque tempor placerat nisi quis
+                            accumsan. Vivamus a erat eros. Pellentesque habitant
+                            morbi tristique senectus et netus et malesuada fames
+                                ac turpis egestas. </p>
+                        </div>
+                    </div>
+
+                    <div class="footer__center">
+                        <div class="footer__center__title">
+                            <p>Stay Connected With Us</p>
+                        </div>
+
+                        <div class="footer__center__socials">
+                            <ul class="footer__center__socials__list">
+                                <li class="footer__center__socials__item 
+                                    footer__center__socials__item—fb">
+                                    <a href="#" class="footer__center__socials__link"></a></li>
+                                <li class="footer__center__socials__item footer__center__socials__item—tw"><a href="#" class="footer__center__socials__link"></a></li>
+                                <li class="footer__center__socials__item footer__center__socials__item—vk"><a href="#" class="footer__center__socials__link"></a></li>
+                                <li class="footer__center__socials__item footer__center__socials__item—in"><a href="#" class="footer__center__socials__link"></a></li>
+                                <li class="footer__center__socials__item footer__center__socials__item—wifi"><a href="#" class="footer__center__socials__link"></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__gallery"></div>
+                    </div>
+
+                    <div class="footer__right">
+                        <p class="footer__title">
+                            Our Gallery</p>
+
+                        <div class="footer__right__gallery">
+                            <ul class="footer__right__gallery__list">
+                                <li class="footer__right__gallery__item"><img alt="image" src="./images/image1_img.png" 
+                                    class="footer__right__gallery__image"></li>
+                                <li class="footer__right__gallery__item"><img alt="image" src="./images/image2_img.png" 
+                                    class="footer__right__gallery__image"></li>
+                                <li class="footer__right__gallery__item"><img alt="image" src="./images/image3_img.png" 
+                                    class="footer__right__gallery__image"></li>
+                                <li class="footer__right__gallery__item"><img alt="image" src="./images/image4_img.png" 
+                                    class="footer__right__gallery__image"></li>
+                                <li class="footer__right__gallery__item"><img alt="image" src="./images/image5_img.png" 
+                                    class="footer__right__gallery__image"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_down">
+            <div class="container">
+                <div class="footer__layout__bottom">
+                    <div class="footer__down__left">
+                        <p>Copyright MyCorp © 2013</p>
+                    </div>
+                    <div class="footer__down__right">
+                        <p> Website builder - uCoz</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
