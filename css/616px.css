@@ -1,11 +1,8 @@
 .content__main__img {
     margin-top: 0;
+    width: 150%;
 }
 
 .content__main {
     margin-bottom: 0;
-}
-
-.content__columns article:first-child {
-    padding-top: 40px;
 }
