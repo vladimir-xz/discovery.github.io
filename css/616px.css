@@ -1,8 +1,11 @@
 .content__main__img {
     margin-top: 0;
     width: 150%;
+
 }
 
 .content__main {
     margin-bottom: 0;
+    object-fit: contain;
+    overflow: hidden;
 }
