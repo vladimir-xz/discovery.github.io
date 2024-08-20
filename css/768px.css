@@ -26,7 +26,12 @@
     margin-bottom: 0;
 }
 
+.footer__right > .footer__title {
+  text-align: center;
+}
+
 .footer__right__gallery__list {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
